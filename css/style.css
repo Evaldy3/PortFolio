@@ -1,0 +1,405 @@
+
+body
+{
+    background-color: #ffffff;
+    font-family: 'Abril Fatface', cursive;
+}
+/* work page */
+li, a
+{
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.nav_links
+{
+  list-style: none;
+  display: flex;
+  
+}
+
+.nav_links li a
+{
+    display: inline-block;
+    padding: 0px 10px;
+    
+}
+
+.openMenu {
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+.icons 
+{
+  font-size: 18px;
+  letter-spacing: 25px;
+  margin-top: 2px;
+  margin-left:30px;
+}
+
+.nav_links .closeMenu  i {
+    display: none;
+    cursor: pointer;
+}
+
+.fa-facebook:hover {color: rgb(0, 110, 255);}
+.fa-twitter:hover {color: rgb(86, 154, 243);}
+.fa-instagram:hover {color: rgb(255, 0, 191);}
+.fa-linkedin-in:hover {color: #0274B3;}
+.fa-github:hover {color: rgb(0, 0, 0);}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.closeMenu
+{
+    display: none;
+}
+
+/*.txt1
+{
+    text-align: center;
+}
+*/
+
+@media(max-width: 800px){
+    .nav_links {
+        height:100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        transition: top 1s ease;
+        display: none;
+    }
+
+   .nav_links li a
+    {
+        margin-top: 30px;
+    }
+    .closeMenu 
+    {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+
+    .icons
+    {
+        margin-top: 160px;
+        margin-right: 25px;
+        font-size: 25px;
+    }
+
+    .logo
+    {
+        margin-top: 10px;
+    }
+
+    .openMenu 
+    {
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav_links li a:hover {
+        background: none;
+        color: #000;
+        font-size: 1.6rem;
+    }
+    .card
+    {
+        width:20rem ;
+        height: 15rem ;
+        margin-top: 10px;
+    }
+    .card a:hover
+    {
+        width:20rem ;
+        height: 15rem ;
+        color: white;
+        background-color:black;
+        text-decoration: none;
+    }
+
+    .display-5
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+     .topic, .quote, .info
+    {
+        text-align: center;
+    }
+    
+     .contact
+    {
+        margin-top: 0;
+        margin-bottom: 20px;
+        margin-left: 35px;
+    }
+
+    .design
+    {
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+    
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70%;
+    }
+  
+    .card1
+    {
+        margin-top: 60px;
+    }
+
+   .txt1
+    {
+        text-align: center;
+    }
+    .typo
+    {
+        text-align: center;
+        margin-top: 12%;
+        font-size: 40px;
+    }
+    .typo1
+    {
+        text-align: center;
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    .h1-cd-page
+        {
+            text-align: center;
+            font-size: 5em;
+            
+        
+        }
+
+}
+
+
+
+@media(min-width:768px)
+{
+ 
+    img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:280px;
+    }
+   
+    .typo
+    {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 80px;
+    }
+    .typo1
+    {
+        text-align: center;
+        margin-top: 10%;
+        font-size: 80px;
+    }
+    
+    .card
+    {
+        width:35rem ;
+        height: 25rem ;
+    }
+    .card a:hover
+    {
+        width:35rem ;
+        height: 25rem ;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+    }
+    
+
+    .card1
+    {
+        margin-top: 160px;
+    }
+
+    .card2
+    {
+        margin-top: 30px;
+    }
+
+    .txt1
+    {
+        margin-left: 340px;
+        margin-top: 120px;
+    }
+
+    .nav_links a:hover
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .contact
+    {
+        margin-top: 0;
+    }
+        
+    .design
+    {
+      margin-left: 30px;
+    }
+    .h1-cd-page
+{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 10em;
+}
+}
+
+/* work page */
+
+/* About page */
+
+.quote
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.topic
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+}
+
+
+.profil
+{
+    margin-top: 85px;
+}
+
+.btn-outline-dark
+{
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+
+.fa-envelope
+{
+    font-size: 20px;
+}
+.fa-envelope:hover
+{
+    font-size: 50px;
+    color: #000;
+}
+
+#linkedin
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#linkedin:hover
+{
+    font-size: 50px;
+}
+
+.resume
+{
+    margin-left: 30px;
+}
+
+.design
+{
+    margin-top: 50px;
+   
+}
+
+
+
+
+
+#github
+{
+    font-size: 40px;
+    color: #000;
+}
+
+
+/* About page */
+
+
+/* Footer */
+.footer
+{
+    margin-top:  50px;
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;  
+}
+
+
+/* Footer */
+
+/* Digital Art page */
+
+.digi-art1
+{
+    width: 30%;
+    margin-bottom: 70px;
+}
+.digi-art2
+{
+    width: 30%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.img-cd-page
+{
+    width: max-content; 
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.img-cd-page-ig
+{
+    width: max-content; 
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+.link-cd-page
+{
+    
+ text-align: center;
+}
